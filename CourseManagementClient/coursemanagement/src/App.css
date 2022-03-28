@@ -1,0 +1,108 @@
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+}
+
+.home,
+.course,
+.student,
+.department,
+.services,
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  font-size: 4rem;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  text-shadow: 4px 4px 4px #fff;
+  text-decoration-color: black;
+}
+
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.parent{
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
+.child {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+.tablePosition {
+  position: relative;
+  padding: 10px;
+  top: 2cm;
+  left: 1cm;
+}
+
+.buttonPosition {
+  position: relative;
+  padding: 10px;
+  top: 4cm;
+  left: 3cm;
+}
+
+.pageHeader {
+  position: relative;
+  width: 50%;
+  padding: 10px;
+  top: 1cm;
+  left: 3cm;
+  font-size: 2.5rem;
+}
+
+.tableText {
+  background-color: black;
+  text-decoration-color: white;
+  color: #fff;
+}
+
+.home {
+  text-decoration-color: black;
+}
+
+.course {
+  text-decoration-color: black;
+}
+
+.cardMedia {
+  background-image: url(./images/img1.jpg);
+}
+
+.cardMediaStu {
+  background-image: url(./images/stu.jpg);
+}
+
+.cardMediaDept {
+  background-image: url(./images/dept.jpg);
+}
+
+.cardMediaTeacher {
+  background-image: url(./images/teacher.jpg);
+}
+
+.student {
+  text-decoration-color: black;
+}
+
+.department {
+  text-decoration-color: black;
+}
